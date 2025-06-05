@@ -4,6 +4,7 @@ import BannerSlider from './components/BannerSlider';
 import CategorySlider from './components/CategorySlider';
 import TopProductsFlashSale from './components/TopProducts';
 import DiscountBanner from './components/DiscountBanner';
+import FeaturedProducts from './components/FeaturedProducts';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <CategorySlider/>
       <TopProductsFlashSale/>
       <DiscountBanner/>
+      <FeaturedProducts/>
     </>
   )
 }
