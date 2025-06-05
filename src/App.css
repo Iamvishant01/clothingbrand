@@ -216,9 +216,11 @@
 }
 
 .tp-card img {
+  width: 100px; /* or adjust as needed */
   height: 100%;
   object-fit: cover;
 }
+
 
 .tp-info {
   padding: 0.5rem;
@@ -322,5 +324,10 @@
 
   .tp-grid {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .tp-grid {
+    grid-template-columns: 1fr; /* 1 column on small screens */
   }
 }
